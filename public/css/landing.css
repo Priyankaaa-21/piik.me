@@ -491,6 +491,16 @@ body {
     color: inherit;
 }
 
+@media (min-width: 768px) {
+    .landing-nav-toggle.md\:hidden {
+        display: none;
+    }
+
+    .hidden.md\:flex {
+        display: flex;
+    }
+}
+
 .landing-mobile-menu {
     padding: max(5rem, env(safe-area-inset-top)) 1.5rem max(2rem, env(safe-area-inset-bottom));
     align-items: stretch;
